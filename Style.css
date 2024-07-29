@@ -1,0 +1,43 @@
+body{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 50px;
+    background-color:hsla(132,0%,100%,1);background-image:radial-gradient(circle at 91% 11%, hsla(13,100%,88%,0.66) 4.038772213247173%,transparent 37.2265767974114%),radial-gradient(circle at 66% 37%, hsla(323,100%,88%,1) 0%,transparent 63.33640956108327%),radial-gradient(circle at 36% 87%, hsla(268,100%,88%,1) 12.107536057085522%,transparent 63.33640956108327%);background-blend-mode:normal,normal,normal;
+}
+.container{
+    display:flex; 
+    justify-content: center;
+
+}
+
+.arenita{
+    width: 300px ;
+    display:flex; 
+    justify-content: center;
+}
+
+.menu{
+    background-color: aqua;
+    margin: 0px;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu ul li a{
+    display: flex;
+    color: hotpink;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+.amigos{
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-floral-acuarela-pintada-mano_23-2149017913.jpg ");
+}
